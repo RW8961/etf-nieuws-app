@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {"id": "reuters", "name": "Reuters"},
+      "title": "Apple reports record quarterly revenue",
+      "description": "Apple Inc. reported record revenue for the quarter.",
+      "url": "https://reuters.com/apple-record-revenue",
+      "publishedAt": "2026-04-25T10:00:00Z"
+    },
+    {
+      "source": {"id": "bloomberg", "name": "Bloomberg"},
+      "title": "Apple launches new product lineup",
+      "description": "Apple unveiled its next generation of products.",
+      "url": "https://bloomberg.com/apple-new-products",
+      "publishedAt": "2026-04-24T14:30:00Z"
+    }
+  ]
+}

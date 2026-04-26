@@ -1,0 +1,23 @@
+{
+  "tableData": {
+    "columns": [
+      {"key": "ticker", "display": "Ticker"},
+      {"key": "name", "display": "Name"},
+      {"key": "weight", "display": "Weight (%)"},
+      {"key": "sector", "display": "Sector"}
+    ],
+    "data": [
+      ["AAPL", "Apple Inc.", "4.23", "Information Technology"],
+      ["MSFT", "Microsoft Corp.", "3.87", "Information Technology"],
+      ["NVDA", "NVIDIA Corp.", "3.12", "Information Technology"],
+      ["AMZN", "Amazon.com Inc.", "2.54", "Consumer Discretionary"],
+      ["META", "Meta Platforms Inc.", "1.89", "Communication Services"],
+      ["GOOGL", "Alphabet Inc. Class A", "1.45", "Communication Services"],
+      ["GOOG", "Alphabet Inc. Class C", "1.38", "Communication Services"],
+      ["BRK.B", "Berkshire Hathaway Inc.", "1.21", "Financials"],
+      ["LLY", "Eli Lilly and Co.", "1.10", "Health Care"],
+      ["AVGO", "Broadcom Inc.", "1.05", "Information Technology"],
+      ["JPM", "JPMorgan Chase & Co.", "0.98", "Financials"]
+    ]
+  }
+}

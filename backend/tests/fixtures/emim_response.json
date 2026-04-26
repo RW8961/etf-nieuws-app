@@ -1,0 +1,22 @@
+{
+  "tableData": {
+    "columns": [
+      {"key": "ticker", "display": "Ticker"},
+      {"key": "name", "display": "Name"},
+      {"key": "weight", "display": "Weight (%)"},
+      {"key": "sector", "display": "Sector"}
+    ],
+    "data": [
+      ["005930", "Samsung Electronics Co. Ltd.", "3.12", "Information Technology"],
+      ["TSM", "Taiwan Semiconductor Manufacturing", "2.89", "Information Technology"],
+      ["700", "Tencent Holdings Ltd.", "2.14", "Communication Services"],
+      ["9988", "Alibaba Group Holding Ltd.", "1.05", "Consumer Discretionary"],
+      ["RELIANCE", "Reliance Industries Ltd.", "0.98", "Energy"],
+      ["2317", "Hon Hai Precision Industry Co.", "0.87", "Information Technology"],
+      ["INFY", "Infosys Ltd.", "0.76", "Information Technology"],
+      ["3690", "Meituan", "0.72", "Consumer Discretionary"],
+      ["ICICIBC", "ICICI Bank Ltd.", "0.65", "Financials"],
+      ["VALE3", "Vale S.A.", "0.61", "Materials"]
+    ]
+  }
+}
