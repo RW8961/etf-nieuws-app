@@ -8,7 +8,7 @@ app = FastAPI(title="ETF News Aggregator", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[o.strip() for o in settings.CORS_ORIGINS.split(",")],
+    allow_origins=[o.strip().rstrip("/") for o in settings.CORS_ORIGINS.split(",")],
     allow_methods=["GET"],
     allow_headers=["*"],
 )
