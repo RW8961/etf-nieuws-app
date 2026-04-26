@@ -6,7 +6,7 @@ _ENV_FILE = Path(__file__).parent / ".env"
 
 class Settings(BaseSettings):
     NEWS_API_KEY: str
-    CORS_ORIGINS: list[str] = ["http://localhost:5173"]
+    CORS_ORIGINS: str = "http://localhost:5173"
     TOP_N_HOLDINGS: int = 10
     CACHE_DIR: str = str(Path(__file__).parent / ".cache")
     HOLDINGS_CACHE_TTL: int = 86400   # 24 hours
