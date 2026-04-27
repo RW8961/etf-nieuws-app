@@ -1,5 +1,4 @@
 from datetime import datetime, timezone
-from pathlib import Path
 
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import JSONResponse
@@ -8,14 +7,14 @@ from config import settings
 from ..aggregation.service import get_aggregated_companies
 from ..etf.errors import ETFNotFoundError, ETFParseError
 from ..news.errors import NewsAPIRateLimitError
-from ..storage.cache import FileCache
+from ..storage.cache import make_cache
 from .models import ErrorResponse, HoldingsResponse
 
 router = APIRouter()
 
 ETF_IDS = ["IWDA", "EMIM"]
 
-_cache = FileCache(Path(settings.CACHE_DIR))
+_cache = make_cache(settings.UPSTASH_REDIS_REST_URL, settings.UPSTASH_REDIS_REST_TOKEN, settings.CACHE_DIR)
 
 
 @router.get("/health")

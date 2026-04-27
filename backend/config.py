@@ -10,7 +10,9 @@ class Settings(BaseSettings):
     TOP_N_HOLDINGS: int = 10
     CACHE_DIR: str = str(Path(__file__).parent / ".cache")
     HOLDINGS_CACHE_TTL: int = 86400   # 24 hours
-    NEWS_CACHE_TTL: int = 1800        # 30 minutes
+    NEWS_CACHE_TTL: int = 86400       # 24 hours
+    UPSTASH_REDIS_REST_URL: str = ""
+    UPSTASH_REDIS_REST_TOKEN: str = ""
 
     model_config = {"env_file": str(_ENV_FILE)}
 
